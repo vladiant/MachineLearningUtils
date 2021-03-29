@@ -29,8 +29,8 @@ A = z[labels == 0]
 B = z[labels == 1]
 
 # Now plot 'A' in red, 'B' in blue, 'centers' in yellow
-plt.hist(A, 256, [0, 256], color='r')
-plt.hist(B, 256, [0, 256], color='b')
-plt.hist(centers, 32, [0, 256], color='y')
+plt.hist(A, 256, [0, 256], color="r")
+plt.hist(B, 256, [0, 256], color="b")
+plt.hist(centers, 32, [0, 256], color="y")
 
 plt.show()

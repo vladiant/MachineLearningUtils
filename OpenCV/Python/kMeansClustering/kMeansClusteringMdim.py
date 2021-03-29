@@ -24,8 +24,8 @@ B = Z[label.ravel() == 1]
 
 # Plot the data
 plt.scatter(A[:, 0], A[:, 1])
-plt.scatter(B[:, 0], B[:, 1], c='r')
-plt.scatter(center[:, 0], center[:, 1], s=80, c='y', marker='s')
-plt.xlabel('Height'), plt.ylabel('Weight')
+plt.scatter(B[:, 0], B[:, 1], c="r")
+plt.scatter(center[:, 0], center[:, 1], s=80, c="y", marker="s")
+plt.xlabel("Height"), plt.ylabel("Weight")
 
 plt.show()

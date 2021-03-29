@@ -6,7 +6,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread('Lenna.png')
+img = cv.imread("Lenna.png")
 Z = img.reshape((-1, 3))
 
 # convert to np.float32
@@ -22,6 +22,6 @@ center = np.uint8(center)
 res = center[label.flatten()]
 res2 = res.reshape((img.shape))
 
-cv.imshow('res2', res2)
+cv.imshow("res2", res2)
 cv.waitKey(0)
 cv.destroyAllWindows()
